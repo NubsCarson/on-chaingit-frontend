@@ -28,3 +28,7 @@ The fixture uses plain diagnostic styling. Screenshots show the actual form's be
 - Focused ESLint reports the same four errors on the base and patch: three pre-existing set-state-in-effect diagnostics and an unescaped apostrophe. Lint is not reported as passing.
 - Existing live Nubs Home remained accessible on its published URL.
 - Real wallet commit/deploy, EVM publishing, and backend gateway cache propagation were not rerun for this patch. This fixes the frontend's state after confirmed writes, not the gateway cache implementation.
+
+## Combined real-app follow-up
+
+[PRs #7, #8 and #9 together: read-only gateway, navigation and failure/retry verification](../combined/README.md). This supplements the controlled fixture checks above.
